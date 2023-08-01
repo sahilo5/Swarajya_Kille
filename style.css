@@ -280,7 +280,7 @@
 
   .title2 {
     width: 650px;
-    font-size: 22px;
+    font-size: 24px;
     font-style: italic;
     height: 60px;
     text-align: left;
@@ -312,23 +312,19 @@
 
     25%,
     45% {
-      transform: translateY(-113px);
+      transform: translateY(-123px);
     }
 
     50%,
     70% {
-      transform: translateY(-226px);
+      transform: translateY(-236px);
     }
 
     75%,
     95% {
-      transform: translateY(-338px);
+      transform: translateY(-348px);
     }
 
-    100%,
-    120% {
-      transform: translateY(-450px);
-    }
   }
 
   /* Responsive */
