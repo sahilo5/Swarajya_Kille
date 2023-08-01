@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratapgad Fort</title>
+  <link rel="stylesheet" href="Forts.css"></style>
+  <script src="https://kit.fontawesome.com/b6bac9ffa6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    <a href="index.html"><div class="logo"></div></a>
+    <div class="search-box">
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Search" autoconplete="off">
+        <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="result-box">
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li><a class="nav-link" href="Forts.html">Forts</a></li>
+        <li><a class="nav-link" href="inDev.html">Historic Monuments</a></li>
+        <li><a class="nav-link" href="./about.html">About Us</a></li>
+        <li><a class="nav-link" href="inDev.html">Join Us</a></li> 
+      </ul>
+    </nav>
+  </header>
+
+  <!-- body  -->
+
+  <div class="main_content">
+  <div class="contentTitle">
+    <h1>Fort Exploration</h1>
+  </div>
+  <div>
+
+  
+    <table id="fortTable">
+        <tr>
+          <th>Sr. No.</th>
+          <th>Name of Fort</th>
+          <th>Links</th>
+        </tr>
+      </table>
+
+  <div class="endFooter">
+</div>
+</div>
+  </div>
+
+<!-- footer  -->
+
+<footer class="footer main-grid">
+  <div class="footer-text">
+    <p class="copyright">© All Rights Reserved 2023</p>
+  </div>
+  <div class="social">
+    <a href="https://www.linkedin.com/in/sahil-deshmukh-56185624b/" class="LinkedIn icon"><i class="fa-brands fa-linkedin-in"></i></i></a>
+    <a href="https://twitter.com/sahil_desh78320" class="twitter icon"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/_sahil_o5/" class="instagram icon"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+<script>
+    // Array of forts
+    let availableKeywords = [
+        { keyword: 'Sajjangad Fort', link: './Sajjangad.html' },
+        { keyword: 'Pratapgad Fort', link: './Pratapgad.html' },
+        { keyword: 'Rajgad Fort', link: './Rajgad.html' },
+        { keyword: 'Sinhagad Fort', link: './Sinhagad.html' },
+        { keyword: 'Purandar Fort', link: './Purandar.html' },
+        { keyword: 'Vasota Fort', link: './Vasota.html' },
+        { keyword: 'Raigad Fort', link: './Raigad.html' },
+        { keyword: 'Shivneri Fort', link: './Shivneri.html' },
+        { keyword: 'Tung Fort', link: './Tung.html' },
+        { keyword: 'Malhargad Fort', link: './Malhargad.html' },
+        { keyword: 'Korigad Fort', link: './Korigad.html' },
+        { keyword: 'Lohagad Fort', link: './Lohagad.html' },
+        { keyword: 'Tikona Fort', link: './Tikona.html' },
+        { keyword: 'Torna Fort', link: './Torna.html' },
+        { keyword: 'Panhala Fort', link: './Panhala.html' },
+        { keyword: 'Vijaydurg Fort', link: './Vijaydurg.html' },
+        { keyword: 'Janjira Fort', link: './Janjira.html' },
+        { keyword: 'Harishchandragad Fort', link: './Harishchandragad.html' },
+        { keyword: 'Harihar Fort', link: './Harihar.html' },
+        { keyword: 'Rajmachi Fort', link: './Rajmachi.html' },
+    ];
+
+    // Sort the forts alphabetically by their names
+    availableKeywords.sort((a, b) => a.keyword.localeCompare(b.keyword));
+
+    // Function to generate the table rows
+    function generateTableRows() {
+        let table = document.getElementById("fortTable");
+        let rowCount = 1;
+
+        availableKeywords.forEach((fort) => {
+            let row = table.insertRow();
+            let srNoCell = row.insertCell(0);
+            let fortNameCell = row.insertCell(1);
+            let exploreCell = row.insertCell(2);
+
+            srNoCell.textContent = rowCount++;
+            fortNameCell.textContent = fort.keyword;
+
+            let exploreButton = document.createElement("button");
+            exploreButton.textContent = "Explore";
+            exploreButton.classList.add("explore-btn"); 
+
+            exploreButton.onclick = function() {
+                window.location.href = fort.link;
+            };
+
+            exploreCell.appendChild(exploreButton);
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", generateTableRows);
+</script>
+  <script src="autocomplete.js"></script>
+</body>
+</html>
+
