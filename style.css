@@ -252,17 +252,17 @@
     }
 
     25%, 45% {
-    transform: translateY(-70px);
+    transform: translateY(-72px);
     }
 
     50%,
     70% {
-      transform: translateY(-140px);
+      transform: translateY(-145px);
     }
 
     75%,
     95% {
-      transform: translateY(-210px);
+      transform: translateY(-220px);
     }
   }
 
