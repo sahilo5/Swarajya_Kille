@@ -20,10 +20,8 @@
     flex-shrink: 0;
     /* Prevent the logo from shrinking */
     width: 250px;
-    /* Adjust the width as per your logo dimensions */
     height: 80px;
     background-image: url(Resurces/Logo.png);
-    /* Replace with the path to your logo image */
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -47,7 +45,6 @@
   .nav-link {
     background-color: #dddddd00;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* Replace with your desired background color */
   }
 
   nav ul li a {
@@ -238,7 +235,6 @@
 
   .content {
     width: 800px;
-    /* Adjust the width as per your needs */
     height: 60px;
     overflow: hidden;
   }
@@ -257,17 +253,17 @@
 
     25%,
     45% {
-      transform: translateY(-54px);
+      transform: translateY(-60px);
     }
 
     50%,
     70% {
-      transform: translateY(-108px);
+      transform: translateY(-120px);
     }
 
     75%,
     95% {
-      transform: translateY(-170px);
+      transform: translateY(-180px);
     }
 
     100%,
