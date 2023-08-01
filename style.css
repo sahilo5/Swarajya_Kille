@@ -264,11 +264,6 @@
     95% {
       transform: translateY(-210px);
     }
-
-    100%,
-    120% {
-      transform: translateY(-240px);
-    }
   }
 
   /* content 2 */
