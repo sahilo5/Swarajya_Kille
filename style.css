@@ -1,4 +1,4 @@
-  header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +20,10 @@
     flex-shrink: 0;
     /* Prevent the logo from shrinking */
     width: 250px;
+    /* Adjust the width as per your logo dimensions */
     height: 80px;
     background-image: url(Resurces/Logo.png);
+    /* Replace with the path to your logo image */
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -45,6 +47,7 @@
   .nav-link {
     background-color: #dddddd00;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Replace with your desired background color */
   }
 
   nav ul li a {
@@ -230,11 +233,11 @@
     margin-left: 12px;
     box-sizing: border-box;
     z-index: 1;
-    /* animation: slider 10s linear infinite; */
   }
 
   .content {
     width: 800px;
+   
     height: 60px;
     overflow: hidden;
   }
@@ -264,6 +267,7 @@
     95% {
       transform: translateY(-220px);
     }
+  
   }
 
   /* content 2 */
@@ -324,7 +328,6 @@
     95% {
       transform: translateY(-458px);
     }
-
   }
 
   /* Responsive */
@@ -408,25 +411,25 @@
 
     @keyframes slide {
 
-      0%,
-      20% {
-        transform: translateY(0);
-      }
-
-      25%,
-      45% {
-        transform: translateY(-60px);
-      }
-
-      50%,
-      70% {
-        transform: translateY(-108px);
-      }
-
-      75%,
-      95% {
-        transform: translateY(-157px);
-      }
+        0%,
+        20% {
+          transform: translateY(0);
+        }
+  
+        25%,
+        45% {
+          transform: translateY(-60px);
+        }
+  
+        50%,
+        70% {
+          transform: translateY(-108px);
+        }
+  
+        75%,
+        95% {
+          transform: translateY(-157px);
+        }
     }
 
     .content2 {
@@ -454,27 +457,26 @@
 
     @keyframes slide2 {
 
-      0%,
-      20% {
-        transform: translateY(0);
-      }
-
-      25%,
-      45% {
-        transform: translateY(-112px);
-      }
-
-      50%,
-      70% {
-        transform: translateY(-222px);
-      }
-
-      75%,
-      95% {
-        transform: translateY(-338px);
-      }
-
-    
+        0%,
+        20% {
+          transform: translateY(0);
+        }
+  
+        25%,
+        45% {
+          transform: translateY(-112px);
+        }
+  
+        50%,
+        70% {
+          transform: translateY(-222px);
+        }
+  
+        75%,
+        95% {
+          transform: translateY(-338px);
+        }
+    }
 
   }
 
@@ -807,4 +809,3 @@
     flex-direction: column;
   }
 }
-  }
