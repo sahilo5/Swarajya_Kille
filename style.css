@@ -609,7 +609,7 @@ header {
       position: absolute;
       top: 47%;
       left: 8%;
-      height: 75px;
+      height: 86px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: #5b2c2c;
       transform: translateY(-50%);
@@ -638,22 +638,17 @@ header {
 
       25%,
       45% {
-        transform: translateY(-75px);
+        transform: translateY(-112px);
       }
 
       50%,
       70% {
-        transform: translateY(-150px);
+        transform: translateY(-205px);
       }
 
       75%,
       95% {
-        transform: translateY(-225px);
-      }
-
-      100%,
-      120% {
-        transform: translateY(-300px);
+        transform: translateY(-305px);
       }
     }
 
@@ -662,11 +657,11 @@ header {
       position: absolute;
       top: 63%;
       left: 8%;
-      height: 118px;
+      height: 138px;
     }
 
     .title2 {
-      width: 420px;
+      width: 418px;
       font-size: 20px;
       font-style: italic;
       height: 60px;
@@ -689,24 +684,18 @@ header {
 
       25%,
       45% {
-        transform: translateY(-116px);
+        transform: translateY(-140px);
       }
 
       50%,
       70% {
-        transform: translateY(-230px);
+        transform: translateY(-280px);
       }
 
       75%,
       95% {
-        transform: translateY(-350px);
+        transform: translateY(-420px);
       }
-
-      100%,
-      120% {
-        transform: translateY(-472px);
-      }
-    }
 
   }
 
