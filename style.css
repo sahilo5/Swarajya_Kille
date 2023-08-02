@@ -295,7 +295,7 @@
 
   .content2 {
     width: 700px;
-    height: 110px;
+    height: 150px;
     overflow: hidden;
   }
 
@@ -312,17 +312,17 @@
 
     25%,
     45% {
-      transform: translateY(-123px);
+      transform: translateY(-153px);
     }
 
     50%,
     70% {
-      transform: translateY(-236px);
+      transform: translateY(-306px);
     }
 
     75%,
     95% {
-      transform: translateY(-348px);
+      transform: translateY(-398px);
     }
 
   }
