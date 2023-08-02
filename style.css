@@ -643,12 +643,12 @@ header {
 
       50%,
       70% {
-        transform: translateY(-205px);
+        transform: translateY(-202px);
       }
 
       75%,
       95% {
-        transform: translateY(-305px);
+        transform: translateY(-302px);
       }
     }
 
@@ -662,7 +662,7 @@ header {
 
     .title2 {
       width: 418px;
-      font-size: 20px;
+      font-size: 18.5px;
       font-style: italic;
       height: 60px;
       text-align: left;
