@@ -149,8 +149,7 @@ button .fa-solid {
   list-style: none;
   position: absolute;
   top: calc(100% + 10px);
-  background: rgba(251, 221, 216, 0.845);
-  ;
+  background: rgb(251, 221, 216);
   z-index: 2;
 }
 
