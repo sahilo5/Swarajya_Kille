@@ -401,7 +401,7 @@ img {
     position: absolute;
     top: 45%;
     left: 4%;
-    height: 33.5px;
+    height: 37px;
   }
 
   .title {
@@ -426,7 +426,7 @@ img {
 
     25%,
     45% {
-      transform: translateY(-38px);
+      transform: translateY(-40px);
     }
 
     50%,
@@ -511,7 +511,7 @@ img {
     position: absolute;
     top: 45%;
     left: 4%;
-    height: 36px;
+    height: 37px;
   }
 
   .title {
@@ -536,7 +536,7 @@ img {
 
     25%,
     45% {
-      transform: translateY(-38px);
+      transform: translateY(-40px);
     }
 
     50%,
@@ -555,12 +555,12 @@ img {
     position: absolute;
     top: 56%;
     left: 4%;
-    height: 95px;
+    height: 97px;
   }
 
   .title2 {
     width: 500px;
-    font-size: 22px;
+    font-size: 21px;
     font-style: italic;
     height: 60px;
     text-align: left;
@@ -626,7 +626,7 @@ img {
   }
 
   .title {
-    width: 420px;
+    width: 418px;
     font-size: 34px;
     font-weight: bold;
     height: 60px;
@@ -652,26 +652,21 @@ img {
 
     50%,
     70% {
-      transform: translateY(-150px);
+      transform: translateY(-160px);
     }
 
     75%,
     95% {
-      transform: translateY(-225px);
-    }
-
-    100%,
-    120% {
-      transform: translateY(-300px);
+      transform: translateY(-230px);
     }
   }
 
   .content2 {
-    width: 420px;
+    width: 414px;
     position: absolute;
     top: 63%;
     left: 8%;
-    height: 118px;
+    height: 128px;
   }
 
   .title2 {
@@ -698,23 +693,20 @@ img {
 
     25%,
     45% {
-      transform: translateY(-116px);
+      transform: translateY(-128px);
     }
 
     50%,
     70% {
-      transform: translateY(-230px);
+      transform: translateY(-256px);
     }
 
     75%,
     95% {
-      transform: translateY(-350px);
+      transform: translateY(-385px);
     }
 
-    100%,
-    120% {
-      transform: translateY(-472px);
-    }
+    
   }
 
 }
