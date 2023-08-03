@@ -46,7 +46,7 @@ header {
 
   .nav-link {
     background-color: #dddddd00;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     /* Replace with your desired background color */
   }
 
@@ -209,7 +209,7 @@ header {
     position: absolute;
     top: 33%;
     left: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     color: #5b2c2c;
     transform: translateY(-50%);
     z-index: 1;
@@ -277,7 +277,7 @@ header {
     position: absolute;
     top: 48%;
     left: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     color: #5b2c2c;
     transform: translateY(-50%);
   }
@@ -610,7 +610,7 @@ header {
       top: 47%;
       left: 8%;
       height: 86px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
       color: #5b2c2c;
       transform: translateY(-50%);
 
